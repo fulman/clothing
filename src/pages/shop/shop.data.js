@@ -171,7 +171,7 @@ const SHOP_DATA = [
         id: 22,
         name: "Tan Trench",
         imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        imageUrl: "/images/shop-img/jackets/brown-trench.png",
+        // imageUrl: "/images/shop-img/jackets/brown-trench.png",
         // price: 185,
       },
     ],
