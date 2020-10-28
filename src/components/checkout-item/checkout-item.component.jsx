@@ -10,9 +10,7 @@ import {
 import {
   CheckoutItemContainer,
   ImageContainer,
-  NameContainer,
   QuantityContainer,
-  PriceContainer,
   TextContainer,
   RemoveButtonContainer,
 } from "./checkout-item.styles";
