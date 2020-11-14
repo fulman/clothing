@@ -8,9 +8,10 @@ import {
 } from "./collection-preview.styles";
 
 function CollectionPreview({ title, items }) {
+  const link = `/shop/${title.toLowerCase()}`;
   return (
     <CollectionPreviewContainer>
-      <TitleContainer>{title}</TitleContainer>
+      <TitleContainer to={link}>{title}</TitleContainer>
       <PreviewContainer>
         {items
           .filter((item, idx) => idx < 4)

@@ -14,6 +14,13 @@ export const CollectionItemContainer = styled.div`
     position: absolute;
     top: 255px;
     display: none;
+    @media screen and (max-width: 800px) {
+      display: block;
+      min-width: unset;
+      opacity: 0.9;
+      padding: 10px;
+      line-height: 1;
+    }
   }
 
   &:hover {
@@ -24,6 +31,21 @@ export const CollectionItemContainer = styled.div`
     button {
       opacity: 0.85;
       display: flex;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    width: 40vw;
+    &:hover {
+      .image {
+        opacity: unset;
+      }
+
+      button {
+        opacity: unset;
+        line-height: 1;
+        display: block;
+      }
     }
   }
 `;
