@@ -4,6 +4,10 @@ export const SignInContainer = styled.div`
   width: 380px;
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 450px) {
+    width: 300px;
+  }
 `;
 
 export const TitleContainer = styled.h2`
@@ -13,4 +17,11 @@ export const TitleContainer = styled.h2`
 export const ButtonsContainer = styled.div`
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: 450px) {
+    width: 300px;
+    & button {
+      min-width: auto;
+      width: 135px;
+    }
+  }
 `;
